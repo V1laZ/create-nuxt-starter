@@ -22,7 +22,7 @@ if (fs.existsSync(projectPath)) {
 
 const setup = async () => {
     try {
-        console.log('\x1b[36m%s\x1b[0m', '⚡ Creating new Nuxt project...');
+        console.log('\x1b[36m%s\x1b[0m', '⚡ Cloning the starter template repository...');
         await new Promise((resolve, reject) => {
             git.clone(repoUrl, projectPath, [], (err) => {
                 if (err) reject(err);
