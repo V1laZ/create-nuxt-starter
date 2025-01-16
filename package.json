@@ -1,0 +1,31 @@
+{
+  "name": "create-nuxt-starter",
+  "version": "1.0.0",
+  "description": "CLI tool to create Nuxt projects with pre-configured starter template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "create-nuxt-starter": "./index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "nuxt",
+    "starter",
+    "cli",
+    "create-nuxt-starter"
+  ],
+  "author": "V1laZ",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "simple-git": "^3.x.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YourUsername/create-nuxt-starter.git"
+  }
+}
